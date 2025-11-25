@@ -1,0 +1,72 @@
+
+
+  .video-title{
+
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20;
+    margin-bottom: 5;
+  
+ 
+    width: 400px;
+   }
+
+   p {
+    font-family: 'Roboto',sans-serif;
+    margin-top: 2px;
+    margin-bottom: 2px;
+   }
+
+   .apple-text {
+ 
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20;
+    margin-bottom: 5;
+    background-color: rgb(230, 35, 35);
+    color: white;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+   
+   }
+
+
+   .span-example {
+    color: red;
+    margin-left: 12px;
+   }
+
+   .shop-lift {
+    cursor: pointer;
+
+   }
+
+   .shop-lift:hover{
+      text-decoration: underline;
+   }
+
+   .button-subscribe{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(218, 23, 23);
+    border-radius: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-width: 1px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15 );
+
+   }
+
+   .button-subscribe:hover{
+    cursor: pointer;
+    color: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15 );
+    opacity: 0.5;
+   }
+

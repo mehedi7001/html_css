@@ -1,0 +1,75 @@
+
+
+/* New style for the hamburger icon */
+.menu-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+    fill: #000; /* Sets the icon color to black */
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
+
+/* New style for the YouTube logo */
+.youtube-logo {
+    /* The SVG is inherently 93x20, but this sets a standard size if you need to adjust */
+    width: 93px; 
+    height: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+
+.search-bar{
+  flex: 1;
+  height: 36px;
+  padding-left: 10px;
+  font-size: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(196, 196, 196);
+  border-radius: 2px;
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.search-bar::placeholder{
+   font-family: Roboto, Arial;
+   font-size: 16px;
+
+}
+
+ .search-button{
+    height: 40px;
+    width: 60px;
+    background-color: white;
+
+   display: flex;
+   align-items: center;
+   border-style: solid;
+   border-color:rgb(196, 196, 196) ;
+
+
+ }
+
+  .search-icon{
+   height: 20px;
+   margin-top: 4px;
+   margin-left: 5px;
+
+  
+
+ }
+
+
+  .voice-search-button{
+     height: 40px;
+    width: 40px;
+    border-radius:  20px;
+ }
+  .search-bar-voice{
+  
+    border-radius: 20px;
+
+  }
