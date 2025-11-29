@@ -2,7 +2,14 @@
   height: 55px;
   display: flex;
   flex-direction: row;
-  
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(240, 240, 240);
 }
 
 
@@ -21,7 +28,7 @@
   display: flex;
   flex: 1;
   align-items: center;
-  margin-left: 150px;
+  margin-left: 10px;
   margin-right: 35px;
   max-width: 500px;
 
